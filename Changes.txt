@@ -1,0 +1,15 @@
+Appended websocket client to sublime text python interpreter path:
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), "websocket_client-0.40.0"))
+
+Downloaded/Extracted/Added websocket-client directory
+
+Added six.py to websocket directory
+
+Added six to interpreter path:
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
+import _thread for python > 3
